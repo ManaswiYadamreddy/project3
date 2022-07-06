@@ -1,0 +1,119 @@
+.alcher_logo-header,
+.title-header{
+    display: inline-block;
+    vertical-align: middle; 
+}
+.header-title,
+.header-logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-logo{
+    margin-left: 30px;
+}
+.header-top{
+    border-bottom: solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.create{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.upload{
+    border: solid;
+    border-color: gray;
+    width: 400px;
+    margin-top: 30px;
+}
+.upload-image{
+    border: solid;
+    border-color: gray;
+    height:200px; 
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.upload-caption{
+    border: solid;
+    border-color: gray;
+    height:75px;
+    margin-top: 25px; 
+}
+.ppp{
+    margin-top: 70px;
+    display: grid;
+    width: 350px;
+    border: solid;
+    border-color: grey;
+    position: fixed;
+    top:25px;
+    left:700px;
+    }
+.create-new-post{
+    margin-top: 70px;
+    display: grid;
+    width: 350px;
+    border: solid;
+    border-color: grey;
+    position: fixed;
+    top:430px;
+    left:700px;
+    grid-template-columns: 40px 1fr;
+    vertical-align: middle;
+}
+ .my-profile{
+     position: fixed;
+     left: 500px;
+     bottom: 200px;
+     top: 800px;
+     right:40px;
+   }
+   .profile-photo{
+    width: 45px;
+    border-radius: 22px;
+   }
+   .profile-info{
+    display: grid;
+    grid-template-columns: 45px 1fr;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   }
+   .profile-names{
+    margin-left: 15px;
+   }
+   .orange-top1{
+    padding-top: 60px;
+    border: solid;
+    border-color: orangered;
+    background-color: orangered;
+   }
+
+   .save-button1{
+    width:35px;
+   }
+   .add-post{
+    width:40px;
+   }
+   .mp1{
+    display:grid;
+    grid-template-columns:40px 100px;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-bottom: 25px;
+   }
+   .mp2{
+    display: grid;
+    grid-template-columns: 40px 100px;
+    vertical-align: middle;
+    margin-bottom: 25px;
+   }
+   .create-new{
+    width: 30px;;
+   }
+   .share-button{
+    width:400px;
+    height: 30px;
+    margin-top: 20px;
+   }

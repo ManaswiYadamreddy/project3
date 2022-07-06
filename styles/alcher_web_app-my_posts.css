@@ -1,0 +1,48 @@
+.alcher_logo-header,
+.title-header{
+    display: inline-block;
+    vertical-align: middle; 
+}
+.header-title,
+.header-logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-logo{
+    margin-left: 30px;
+}
+.header-top{
+    border-bottom: solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.title-top{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.like-button{
+    width: 40px;
+    margin-right: 60px;
+}
+.stats{
+    display: grid;
+    grid-template-columns: 40px 1fr 1fr;
+    column-gap: 30px;
+    margin-top: 10px;
+}
+.posts-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30px;
+    margin-top: 30px;
+    row-gap: 25px;
+    column-gap: 35px;
+}
+.post1{
+    border: solid;
+    border-color: gray;
+}

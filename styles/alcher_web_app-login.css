@@ -1,0 +1,66 @@
+.title,
+.alcher_logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.login{
+    border: solid;
+    border-color: rgb(244, 100, 51);
+    border-radius: 7px;
+}
+.page-one{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right:300px ;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    vertical-align: middle;
+}
+
+.ask-login{
+    padding-top: 50px;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+.ask-login1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.orange-top{
+    background-color: rgb(244, 100, 51);
+}
+.login-button{
+    border: solid;
+    border-color: rgb(244, 100, 51);
+    border-radius:5px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.login-info{
+    margin-left: 10px;
+}
+.head{
+    margin-top: 200 px;
+}
+.alcher_logo-header,
+.title-header{
+    display: inline-block;
+    vertical-align: middle; 
+}
+.header-title,
+.header-logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.header-logo{
+    margin-left: 30px;
+}
+.header-top{
+    border-bottom: solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
