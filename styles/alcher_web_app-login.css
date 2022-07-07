@@ -6,7 +6,7 @@
 
 .login{
     border: solid;
-    border-color: rgb(244, 100, 51);
+    border-color: rgb(253, 243, 239);
     border-radius: 7px;
 }
 .page-one{
@@ -25,18 +25,14 @@
 }
 .ask-login1{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .orange-top{
     background-color: rgb(244, 100, 51);
 }
 .login-button{
-    border: solid;
-    border-color: rgb(244, 100, 51);
-    border-radius:5px;
     display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
 }
 .login-info{
     margin-left: 10px;
@@ -63,4 +59,43 @@
     top: 0;
     left: 0;
     right: 0;
+    border-color: rgb(200, 214, 214);
+}
+.bottom{
+    margin-top: 40px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: x-large;
+    width: 300px;
+    margin-left: 40px;
+    color: gray;
+}
+.title{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: xx-large;
+    color: gray;
+    font-weight: 200;
+}
+.title,
+.alcher_logo{
+    margin-top: 50px;
+}
+.header-title{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.connect{
+    color:rgb(244, 100, 51) ;
+}
+.login{
+    font-family: 'Roboto', sans-serif;
+    font-size: larger; 
+    font-weight: 200;
+    text-align:center;
+    box-shadow: 5px 5px 5px;
+    color: rgb(189, 185, 185);
+}
+.orange-top{
+    color: aliceblue;
+}
+.register{
+    margin-bottom: 20px;
 }
