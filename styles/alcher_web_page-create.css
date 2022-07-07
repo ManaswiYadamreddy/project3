@@ -2,11 +2,13 @@
 .title-header{
     display: inline-block;
     vertical-align: middle; 
+
 }
 .header-title,
 .header-logo{
     display: inline-block;
     vertical-align: middle;
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
 .header-logo{
     margin-left: 30px;
@@ -24,44 +26,73 @@
 }
 .upload{
     border: solid;
-    border-color: gray;
+    border-color: rgb(208, 201, 201);
     width: 400px;
     margin-top: 30px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px;
+    color: rgb(213, 207, 207);
 }
 .upload-image{
     border: solid;
-    border-color: gray;
-    height:200px; 
-    margin-top: 25px;
+    border-color: rgb(208, 201, 201);
+    margin-top: 10px;
     margin-bottom: 25px;
+    color: rgb(213, 207, 207);
+    padding-left: 150px;
+    padding-top: 100px;
+    height: 120px;
+    width: 200px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 6px;
+
 }
 .upload-caption{
     border: solid;
-    border-color: gray;
-    height:75px;
-    margin-top: 25px; 
+    border-color: rgb(208, 201, 201);
+    height:60px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-left: 150px;
+    color: rgb(213, 207, 207);
+    padding-top: 40px;
+    width: 200px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 6px;
 }
 .ppp{
     margin-top: 70px;
     display: grid;
     width: 350px;
     border: solid;
-    border-color: grey;
+    border-color: rgb(208, 201, 201);
     position: fixed;
-    top:25px;
+    top:1px;
     left:700px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px;
+    color: rgb(213, 207, 207);
     }
 .create-new-post{
     margin-top: 70px;
     display: grid;
     width: 350px;
     border: solid;
-    border-color: grey;
+    border-color: rgb(208, 201, 201);
     position: fixed;
-    top:430px;
+    top:452px;
     left:700px;
     grid-template-columns: 40px 1fr;
     vertical-align: middle;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px;
+    color: rgb(213, 207, 207);
+    height: 38px;
+}
+.create-link{
+    margin-top: 5px;
 }
  .my-profile{
      position: fixed;
@@ -73,6 +104,8 @@
    .profile-photo{
     width: 45px;
     border-radius: 22px;
+    margin-left: 15px;
+    margin-right: 10px;
    }
    .profile-info{
     display: grid;
@@ -80,21 +113,48 @@
     margin-top: 25px;
     margin-bottom: 25px;
    }
+   .person-name{
+    margin-top: 4px;
+   }
    .profile-names{
     margin-left: 15px;
+    color: black;
+    margin-left: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .bio{
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .saved-posts{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   .my_posts-link{
+    margin-top: 5px;
+    margin-left: 8px;
    }
    .orange-top1{
     padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    font-weight: 500;
     border: solid;
-    border-color: orangered;
-    background-color: orangered;
+    border-color:rgb(247, 105, 54);
+    background-color: rgb(247, 105, 54);
+    color: white;
+    border-radius: 10px;
+
    }
 
    .save-button1{
     width:35px;
+    margin-right: 10px;
    }
    .add-post{
     width:40px;
+    margin-right: 10px;
    }
    .mp1{
     display:grid;
@@ -102,18 +162,45 @@
     vertical-align: middle;
     margin-top: 30px;
     margin-bottom: 25px;
+    margin-left: 10px;
    }
    .mp2{
     display: grid;
     grid-template-columns: 40px 100px;
     vertical-align: middle;
     margin-bottom: 25px;
+    margin-left: 10px;
    }
    .create-new{
     width: 30px;;
    }
    .share-button{
     width:400px;
-    height: 30px;
+    height: 40px;
     margin-top: 20px;
+    border-radius: 6px;
+    border-color:rgb(247, 105, 54) ;
+    background-color: white;
+    color:rgb(247, 105, 54) ;
+    font-size: 28;
+    }
+    .share-button:hover{
+    border-color:white ;
+    background-color: rgb(247, 105, 54);
+    color:white ; 
+    box-shadow: 3px 3px 3px;
+    }
+   .heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+   }
+   .image,
+   .caption{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+
+   }
+   .image{
+    margin-top: 10px;
    }
