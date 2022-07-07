@@ -28,7 +28,8 @@
     padding-bottom: 10px;
 }
 .orange-top{
-    background-color: rgb(244, 100, 51);
+    background-color: rgb(247, 105, 54);
+    border-radius: 7px;
 }
 .login-button{
     display: block;
