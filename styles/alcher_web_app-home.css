@@ -3,6 +3,10 @@
     display: inline-block;
     vertical-align: middle; 
 }
+.header-title{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 200;
+}
 .header-title,
 .header-logo{
     display: inline-block;
@@ -22,12 +26,33 @@
 .pp{
     width: 45px;
     border-radius: 22px;
+    margin-left: 10px;
+    margin-top: 4px;
  }
  .post1{
     width:400px;
  }
+ .post2{
+    width:400px;
+    height: 240px;
+ }
+ .post3{
+    width:400px;
+    height: 240px;
+}
+.post4{
+    width:400px;
+    height: 240px;
+}
+
  .user-name{
  font-weight: bold;
+ color: black;
+ margin-top: 14px;
+ }
+ .likes{
+    color: black;
+    margin-top: 5px;
  }
  .profile{
      display:grid;
@@ -37,13 +62,16 @@
  }
  .post{
      border: solid;
-     border-color: darkgray;
+     border-color: rgb(231, 225, 225);
      border-radius: 5px;
-     margin-top: 100px;
+     margin-top: 50px;
      margin-left: 100px;
      display: inline-block;
      width:400px;
      height:330px;
+     box-shadow: 5px 5px 5px;
+     color: rgb(209, 204, 204);
+     
  }
  .save-button{
      width:40px;
@@ -59,22 +87,30 @@
  }
  .ppp{
     margin-top: 70px;
+    margin-bottom: 20px;
     display: grid;
     width: 350px;
     border: solid;
-    border-color: grey;
+    border-color: rgb(249, 246, 246);
+    border-radius: 10px;
     position: fixed;
     top:5px;
     left:700px;
+    box-shadow: 5px 5px 5px;
+    color:rgb(212, 206, 206) ;
+    border-radius: 3px;
     }
 .create-new-post{
     margin-top: 70px;
     display: grid;
     width: 350px;
     border: solid;
-    border-color: grey;
+    border-radius: 6px;
+    border-color: rgb(249, 246, 246);
+    box-shadow: 5px 5px 5px;
+    color:rgb(212, 206, 206) ;
     position: fixed;
-    top:400px;
+    top:430px;
     left:700px;
     grid-template-columns: 40px 1fr;
     vertical-align: middle;
@@ -95,15 +131,29 @@
     grid-template-columns: 45px 1fr;
     margin-top: 25px;
     margin-bottom: 25px;
+    color: black;
+   }
+   .bio{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
    }
    .profile-names{
     margin-left: 15px;
    }
    .orange-top1{
     padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+    font-weight: 500;
     border: solid;
-    border-color: orangered;
-    background-color: orangered;
+    border-color: rgb(241, 86, 30);
+    background-color: rgb(241, 86, 30);
+    color: white;
+    border-radius: 10px;
+
    }
 
    .save-button1{
@@ -124,6 +174,7 @@
     grid-template-columns: 40px 100px;
     vertical-align: middle;
     margin-bottom: 25px;
+    color: black;
    }
    .page-complete{
     display: grid;
