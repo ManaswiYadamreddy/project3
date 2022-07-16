@@ -1,8 +1,12 @@
 .alcher_logo-header,
 .title-header{
     display: inline-block;
-    vertical-align: middle; 
+    vertical-align: middle;  
+    font-family: 'Edu NSW ACT Foundation', cursive;
 
+}
+.header-title{
+     font-family: 'Edu NSW ACT Foundation', cursive;
 }
 .header-title,
 .header-logo{
@@ -61,7 +65,38 @@
     margin-left: 20px;
     box-shadow: 5px 5px 5px;
     border-radius: 6px;
+
 }
+.location-button,
+.get-location1,
+.status{
+    margin-left: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.get-location1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(103, 100, 100);
+}
+.status{
+    font-size: small;
+}
+
+.location-click{
+    height: 30px;
+    border: solid;
+    color: gray;
+    border-radius: 3px;
+}
+.location-click:active{
+    opacity: 0;
+}
+
+
+
+
+
 .ppp{
     margin-top: 70px;
     display: grid;
@@ -137,7 +172,7 @@
     padding-top: 60px;
     padding-bottom: 30px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;  
+    font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
     font-weight: 500;
     border: solid;
